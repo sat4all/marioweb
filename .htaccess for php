@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^techintercom\.info$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.techintercom\.info$
+RewriteRule ^/?$ "http\:\/\/admin78\.nstrefa\.pl\/itm\/" [R=301,L]
