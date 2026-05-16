@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>DublinPainter.ie | Professional Painting &amp; Decorating Services Dublin</title>
+  <meta name="description" content="Professional painter and decorator based in Dublin. Interior &amp; exterior painting, kitchen cabinet refinishing, mould-resistant coatings. Free quotes — call 089 951 0552." />
+  <meta name="keywords" content="painter Dublin, decorator Dublin, exterior painting Dublin, interior painting, house painter Dublin, painting services Ireland, DublinPainter" />
+  <meta name="author" content="DublinPainter.ie" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.dublinpainter.ie/" />
+
+  <!-- Favicons -->
+  <link rel="icon"             type="image/x-icon" href="favicon.ico" />
+  <link rel="icon"             type="image/png"    href="favicon-32x32.png" sizes="32x32" />
+  <link rel="apple-touch-icon"                     href="apple-touch-icon.png" sizes="180x180" />
+  <meta name="theme-color"     content="#3ecf4e" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://www.dublinpainter.ie/" />
+  <meta property="og:title"       content="DublinPainter.ie | Professional Painting &amp; Decorating Dublin" />
+  <meta property="og:description" content="Trusted Dublin painter &amp; decorator. Interior, exterior, cabinet &amp; landlord painting. Fully insured. Free colour consultation. Call 089 951 0552." />
+  <meta property="og:image"       content="https://www.dublinpainter.ie/mariojpgb_wide.png" />
+  <meta property="og:image:width"  content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale"      content="en_IE" />
+  <meta property="og:site_name"   content="DublinPainter.ie" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="DublinPainter.ie | Professional Painting Dublin" />
+  <meta name="twitter:description" content="Interior &amp; exterior painting, free quotes. Call 089 951 0552." />
+  <meta name="twitter:image"       content="https://www.dublinpainter.ie/mariojpgb_wide.png" />
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       SEO — LocalBusiness structured data (JSON-LD)
+       FIX: logo updated from old filename to mariojpgb_wide.png
+  ════════════════════════════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.dublinpainter.ie/#business",
+    "name": "DublinPainter.ie",
+    "description": "Professional painter and decorator in Dublin offering interior and exterior painting, kitchen cabinet refinishing, mould-resistant coatings, and landlord painting services.",
+    "url": "https://www.dublinpainter.ie/",
+    "logo": "https://www.dublinpainter.ie/mariojpgb_wide.png",
+    "image": "https://www.dublinpainter.ie/mariojpgb_wide.png",
+    "telephone": "+353899510552",
+    "email": "mario@dublinpainter.ie",
+    "priceRange": "€€",
+    "currenciesAccepted": "EUR",
+    "paymentAccepted": "Cash, Bank Transfer",
+    "areaServed": { "@type": "Country", "name": "Ireland" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Dublin", "addressCountry": "IE" },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "08:00", "closes": "19:00"
+    }],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Painting Services",
+      "itemListElement": [
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Interior Painting" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Exterior Painting" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kitchen Cabinet Painting" } },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landlord Painting" } }
+      ]
+    },
+    "sameAs": ["https://www.facebook.com/painter.dublin.1/photos"]
+  }
+  </script>
+
+  <!-- ═══════════════════════════════════════════════════════════════
+       Google Analytics 4
+       REQUIRED: replace GA4_MEASUREMENT_ID with your real ID.
+       Find it: GA4 → Admin → Data Streams → Web stream details
+       Example: G-A1B2C3D4E5
+  ════════════════════════════════════════════════════════════════ -->
+  <script>
+    var GA4_ID = 'GA4_MEASUREMENT_ID'; /* <- REPLACE THIS */
+    if (GA4_ID === 'GA4_MEASUREMENT_ID') {
+      console.error('[DublinPainter] GA4 Measurement ID not set. Open index.html, find GA4_MEASUREMENT_ID and replace it with your real ID from GA4 → Admin → Data Streams.');
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = function(){ window.dataLayer.push(arguments); };
+    } else {
+      (function(){ var s=document.createElement('script'); s.async=true; s.src='https://www.googletagmanager.com/gtag/js?id='+GA4_ID; document.head.appendChild(s); })();
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ window.dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', GA4_ID, { page_title:'DublinPainter.ie', page_location:'https://www.dublinpainter.ie/' });
+    }
+  </script>
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --black:  #000000; --dark:#111111; --card:#181818;
+      --border: #2a2a2a; --green:#3ecf4e; --white:#ffffff;
+      --grey:   #888888; --text:#cccccc;
+    }
+    body.light-mode {
+      --black:#ffffff; --dark:#f5f5f5; --card:#ffffff; --border:#e0e0e0;
+      --green:#22c55e; --white:#000000; --grey:#666666; --text:#1a1a1a;
+    }
+    body.light-mode .mob-menu    { background:#ffffff; }
+    body.light-mode .sky         { background:#ffffff; }
+    body.light-mode .sky svg path{ fill:#e0e0e0; }
+    body.light-mode .fcopy       { background:#ffffff; color:#666666; }
+    body.light-mode .fcopy a     { color:#22c55e; }
+    body.light-mode .ptbl thead tr            { background:#f5f5f5; }
+    body.light-mode .ptbl tbody tr:nth-child(even){ background:#fafafa; }
+    body.light-mode .ptbl tbody tr:hover      { background:#f0f0f0; }
+    body.light-mode .ptbl td                  { border-color:#e0e0e0; color:#1a1a1a; }
+    body.light-mode .ptbl thead th            { border-color:#e0e0e0; }
+    body.light-mode .ptbl td:last-child       { color:#1a1a1a; }
+    body.light-mode .pt-sub      { color:#666666; }
+    body.light-mode .sec-title   { color:#1a1a1a; }
+    body.light-mode .pt-head     { color:#22c55e; }
+    body.light-mode .citem .cv   { color:#1a1a1a; }
+    body.light-mode .citem .cv a { color:#1a1a1a; }
+    body.light-mode .citem .cv a:hover { color:#22c55e; }
+    body.light-mode .furl        { color:#1a1a1a; }
+    body.light-mode .nav-phone   { color:#22c55e; }
+    body.light-mode .nav-phone:hover { color:#1a1a1a; background:#22c55e; }
+    body.light-mode .nav-logo img{ filter:brightness(0.9); }
+    body.light-mode .nav-links a { color:#666666; }
+    body.light-mode .nav-links a:hover, body.light-mode .nav-links a.active { color:#1a1a1a; }
+    body.light-mode .nav-links a::after { background:#22c55e; }
+    body.light-mode .mob-menu a  { color:#666666; }
+    body.light-mode .mob-menu a:hover { color:#22c55e; }
+    body.light-mode .theme-toggle { color:#1a1a1a; }
+    body.light-mode .theme-toggle:hover { color:#ffffff; }
+    body.light-mode .hamburger   { color:#1a1a1a; }
+    body.light-mode #hero-nav    { background:#ffffff; }
+    body.light-mode .hn-theme    { color:#333; }
+    body.light-mode .hn-hamburger{ color:#333; }
+
+    * { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { font-family:'Montserrat',sans-serif; background:var(--black); color:var(--text); overflow-x:hidden; }
+    ::-webkit-scrollbar{width:5px} ::-webkit-scrollbar-track{background:var(--black)} ::-webkit-scrollbar-thumb{background:var(--green);border-radius:3px}
+
+    /* NAV */
+    #mainNav { background:var(--black); border-bottom:1px solid var(--border); position:fixed; width:100%; top:0; z-index:1000; transform:translateY(-100%); transition:transform .35s ease,border-color .3s; }
+    #mainNav.scrolled { transform:translateY(0); border-bottom-color:var(--green); }
+    .nav-inner { display:flex; align-items:center; justify-content:space-between; padding:0 2rem; height:58px; }
+    .nav-logo img { height:42px; width:auto; display:block; transition:transform .3s; }
+    .nav-logo img:hover { transform:scale(1.06); }
+    .nav-links { display:flex; list-style:none; }
+    .nav-links a { display:block; color:var(--grey); text-decoration:none; font-size:.76rem; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; padding:0 1.3rem; height:58px; line-height:58px; position:relative; transition:color .2s; }
+    .nav-links a::after { content:''; position:absolute; bottom:0; left:1.3rem; right:1.3rem; height:2px; background:var(--green); transform:scaleX(0); transition:transform .25s; }
+    .nav-links a:hover,.nav-links a.active { color:var(--white); }
+    .nav-links a:hover::after,.nav-links a.active::after { transform:scaleX(1); }
+    .nav-phone { color:var(--green); font-size:.8rem; font-weight:700; text-decoration:none; letter-spacing:1px; border:1px solid var(--green); padding:7px 14px; border-radius:3px; transition:background .2s,color .2s; white-space:nowrap; }
+    .nav-phone:hover { background:var(--green); color:var(--black); }
+    .hamburger { display:none; background:none; border:1px solid var(--border); color:var(--white); padding:8px 12px; cursor:pointer; font-size:1rem; border-radius:3px; }
+    .theme-toggle { background:none; border:1px solid var(--border); color:var(--white); padding:8px 12px; cursor:pointer; font-size:1rem; border-radius:3px; transition:background .2s,color .2s; margin-right:8px; }
+    .theme-toggle:hover { background:var(--green); color:var(--black); }
+
+    /* Mobile drawer */
+    .mob-menu { display:none; background:#0d0d0d; border-bottom:1px solid var(--border); padding:1rem 2rem; position:sticky; top:54px; z-index:998; }
+    .mob-menu.open { display:block; }
+    .mob-menu a { display:block; color:var(--grey); text-decoration:none; font-size:.82rem; font-weight:700; letter-spacing:2px; text-transform:uppercase; padding:12px 0; border-bottom:1px solid var(--border); transition:color .2s; }
+    .mob-menu a:last-child { border-bottom:none; }
+    .mob-menu a:hover { color:var(--green); }
+
+    /* HERO */
+    #hero { background:var(--black); line-height:0; position:relative; }
+    #hero img { width:100%; height:auto; max-height:400px; object-fit:contain; object-position:center; display:block; }
+
+    /* HERO-NAV */
+    #hero-nav { position:sticky; top:0; z-index:999; background:var(--black); border-bottom:3px solid var(--green); display:flex; align-items:stretch; justify-content:center; }
+    .hn-links { display:flex; list-style:none; margin:0; padding:0; flex:1; justify-content:center; }
+    .hn-links a { display:flex; align-items:center; color:var(--grey); text-decoration:none; font-size:.75rem; font-weight:800; letter-spacing:3px; text-transform:uppercase; padding:0 2.2rem; height:54px; position:relative; transition:color .2s; }
+    .hn-links a::after { content:''; position:absolute; bottom:0; left:2.2rem; right:2.2rem; height:3px; background:var(--green); transform:scaleX(0); transition:transform .25s; }
+    .hn-links a:hover,.hn-links a.active { color:var(--white); }
+    .hn-links a:hover::after,.hn-links a.active::after { transform:scaleX(1); }
+    .hn-sep { width:1px; background:var(--border); margin:12px 0; }
+    .hn-phone { display:flex; align-items:center; gap:9px; color:var(--green); font-size:.8rem; font-weight:800; text-decoration:none; letter-spacing:1px; padding:0 1.8rem; border-left:1px solid var(--border); transition:background .2s,color .2s; white-space:nowrap; }
+    .hn-phone:hover { background:var(--green); color:var(--black); }
+    .hn-theme { display:flex; align-items:center; background:none; border:none; border-left:1px solid var(--border); color:var(--white); padding:0 1.2rem; cursor:pointer; font-size:1rem; transition:background .2s,color .2s; margin-left:auto; }
+    .hn-theme:hover { background:var(--green); color:var(--black); }
+    .hn-hamburger { display:none; align-items:center; background:none; border:none; color:var(--white); font-size:1.1rem; padding:0 1.2rem; cursor:pointer; }
+    @media(max-width:768px){ .hn-links,.hn-phone{display:none} .hn-hamburger{display:flex} }
+
+    /* COMMONS */
+    section { padding:80px 0; }
+    .sec-label { font-size:.66rem; font-weight:700; letter-spacing:4px; text-transform:uppercase; color:var(--green); margin-bottom:7px; display:block; }
+    .sec-title { font-size:clamp(1.5rem,3.5vw,2.3rem); font-weight:900; color:var(--white); margin-bottom:10px; line-height:1.15; }
+    .sec-title span { color:var(--green); }
+    .sec-line { width:38px; height:2px; background:var(--green); margin-bottom:2rem; }
+    .reveal { opacity:0; transform:translateY(22px); transition:opacity .6s,transform .6s; }
+    .reveal.visible { opacity:1; transform:translateY(0); }
+
+    /* PRICES */
+    #prices { background:var(--black); }
+    .intro-card { background:var(--card); border:1px solid var(--border); border-radius:5px; padding:24px; font-size:.87rem; line-height:1.85; color:var(--text); }
+    .intro-card p { margin-bottom:.8rem; }
+    .intro-card p:last-child { margin:0; }
+
+    /*
+     * FIX: Previously two @keyframes both named "blink" existed in
+     * the stylesheet. CSS last-write-wins, so the second declaration
+     * (opacity-only, for .pcta-lbl) silently overrode the first
+     * (scale+opacity, for .best-badge), stripping the badge of its
+     * scale pulse entirely.
+     *
+     * Fix: renamed to distinct, descriptive names:
+     *   blink-badge  →  scale + opacity  (used by .best-badge)
+     *   blink-fade   →  opacity only     (used by .pcta-lbl)
+     */
+    .best-badge {
+      width:96px; height:96px; border-radius:50%;
+      border:3px dashed var(--green); background:var(--black);
+      display:flex; flex-direction:column; align-items:center; justify-content:center;
+      color:var(--green); font-weight:900; font-size:1.05rem; text-transform:uppercase;
+      line-height:1.2; text-align:center; margin:0 auto;
+      animation: blink-badge 1.5s infinite;
+    }
+    @keyframes blink-badge {
+      0%, 100% { opacity:1; transform:scale(1); }
+      50%       { opacity:0.5; transform:scale(1.05); }
+    }
+
+    .best-badge small { font-size:.62rem; letter-spacing:2px; }
+    .pt-head { font-size:.92rem; font-weight:800; color:var(--green); border-left:3px solid var(--green); padding-left:11px; margin:38px 0 7px; }
+    .pt-sub  { font-size:.81rem; color:var(--grey); line-height:1.75; margin-bottom:14px; }
+    .ptbl    { width:100%; border-collapse:collapse; font-size:.81rem; margin-bottom:22px; }
+    .ptbl thead tr { background:#161616; }
+    .ptbl thead th { padding:9px 13px; color:var(--green); font-weight:700; font-size:.72rem; letter-spacing:1px; text-transform:uppercase; border:1px solid var(--border); text-align:left; }
+    .ptbl tbody tr:nth-child(even) { background:#111; }
+    .ptbl tbody tr:hover { background:#1a1a1a; }
+    .ptbl td { padding:8px 13px; color:var(--text); border:1px solid var(--border); vertical-align:middle; }
+    .ptbl td:last-child { color:var(--white); font-weight:700; white-space:nowrap; }
+    .incl { list-style:none; display:flex; flex-wrap:wrap; gap:7px 26px; margin:8px 0 26px; padding:0; }
+    .incl li { font-size:.8rem; color:var(--text); display:flex; align-items:center; gap:6px; }
+    .incl li::before { content:'✓'; color:var(--green); font-weight:900; }
+    .pcta { background:var(--card); border-top:1px solid var(--border); text-align:center; padding:46px 20px; margin-top:48px; }
+    .pcta-lbl { font-size:clamp(1.3rem,3.5vw,1.6rem); font-weight:700; color:#ff0000; letter-spacing:3px; font-family:'Courier New',monospace; margin-bottom:16px; animation:blink-fade 1.5s infinite; }
+    @keyframes blink-fade {
+      0%, 100% { opacity:1; }
+      50%       { opacity:0.5; }
+    }
+    .pcta-num { display:inline-flex; align-items:center; gap:13px; font-size:clamp(1.8rem,5vw,2.8rem); font-weight:900; color:var(--white); text-decoration:none; transition:color .2s; }
+    .pcta-num:hover { color:var(--green); }
+    .pcta-num i { color:var(--green); font-size:.8em; }
+
+    /* ── TABLE — desktop layout ── */
+    .table-responsive {
+      display:block; width:100%; overflow-x:auto;
+      -webkit-overflow-scrolling:touch;
+    }
+    .ptbl thead th { white-space:nowrap; }
+    .ptbl tbody td { word-break:normal; overflow-wrap:break-word; }
+
+    /* ── TABLE — mobile card layout (no horizontal scroll) ──
+       On small screens each <tr> becomes a self-contained card.
+       Each <td> shows its column name as a left-aligned label
+       via a data-label attribute set in JS, and the value sits
+       on the right. No scrolling needed — everything fits.      */
+    @media(max-width:600px){
+      /* Kill the horizontal scroller */
+      .table-responsive { overflow-x:visible; }
+
+      /* Hide the original header row — labels come from data-label */
+      .ptbl thead { display:none; }
+
+      /* Each row = a card */
+      .ptbl tbody tr {
+        display:block;
+        background:var(--card) !important;
+        border:1px solid var(--border);
+        border-radius:6px;
+        margin-bottom:10px;
+        padding:4px 0;
+        box-shadow:0 2px 8px rgba(0,0,0,.18);
+      }
+      .ptbl tbody tr:hover { background:var(--card) !important; }
+
+      /* Each cell = a label/value row inside the card */
+      .ptbl tbody td {
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        gap:8px;
+        padding:8px 14px;
+        border:none;
+        border-bottom:1px solid var(--border);
+        white-space:normal;
+        font-size:.82rem;
+      }
+      .ptbl tbody td:last-child {
+        border-bottom:none;
+        color:var(--green) !important;
+        font-weight:800;
+      }
+
+      /* Column label injected by JS via ::before */
+      .ptbl tbody td::before {
+        content:attr(data-label);
+        font-size:.65rem;
+        font-weight:700;
+        letter-spacing:1.5px;
+        text-transform:uppercase;
+        color:var(--grey);
+        white-space:nowrap;
+        flex-shrink:0;
+      }
+    }
+    #services { background:var(--dark); }
+
+    /* WORKS */
+    #work { background:var(--black); }
+    .wgrid { display:grid; grid-template-columns:repeat(3,1fr); gap:3px; }
+    .witem { position:relative; overflow:hidden; aspect-ratio:4/3; background:var(--card); cursor:pointer; }
+    .witem.big { grid-column:span 2; aspect-ratio:16/7; }
+    .witem img { width:100%; height:100%; object-fit:cover; transition:transform .5s,filter .4s; filter:brightness(.7) saturate(.8); }
+    .witem:hover img { transform:scale(1.07); filter:brightness(.45) saturate(.4); }
+    .fb-wrap { text-align:center; margin-top:30px; }
+    .fb-btn { display:inline-flex; align-items:center; gap:10px; background:var(--green); color:#fff; text-decoration:none; padding:12px 28px; border-radius:4px; font-weight:700; font-size:.86rem; transition:background .3s,transform .2s; box-shadow:0 4px 18px rgba(62,207,78,.3); }
+    .fb-btn:hover { background:#2fb83e; color:#fff; transform:translateY(-2px); }
+    .fb-sub { display:block; margin-top:9px; font-size:.75rem; color:var(--grey); letter-spacing:1px; }
+
+    /* CONTACT STRIP */
+    #cstrip { background:var(--card); border-top:2px solid var(--green); padding:44px 0; }
+    .cgrid { display:flex; flex-wrap:wrap; justify-content:center; gap:0; }
+    .citem { flex:1; min-width:160px; padding:24px 20px; text-align:center; border-right:1px solid var(--border); overflow:hidden; }
+    /* Email item gets more space and no overflow hidden */
+    .citem:nth-child(2) { flex-basis:280px; min-width:280px; overflow:visible; }
+    .citem:last-child { border-right:none; }
+    .citem i { font-size:1.4rem; color:var(--green); margin-bottom:9px; display:block; }
+    .citem .cl { font-size:.62rem; letter-spacing:2.5px; text-transform:uppercase; color:var(--grey); margin-bottom:5px; }
+    .citem .cv { font-size:.92rem; font-weight:700; color:var(--white); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .citem .cv a { color:var(--white); text-decoration:none; transition:color .2s; }
+    .citem .cv a:hover { color:var(--green); }
+    /* Email item value gets no overflow handling */
+    .citem:nth-child(2) .cv { overflow:visible; text-overflow:clip; }
+    /* Email link — stays on one line, font shrinks with viewport to fit.
+       clamp(min, preferred, max):
+         min  = 0.60rem  — absolute floor so text stays legible on mobile
+         pref = 4.5vw    — scales with screen width (fits 23 chars at ~320px)
+         max  = 0.92rem  — normal desktop size                                  */
+    #email-link {
+      display:block;
+      white-space:nowrap;
+      font-size:clamp(0.60rem, 4.5vw, 0.92rem);
+    }
+
+    /* FOOTER */
+    footer { background:#040404; border-top:1px solid var(--border); }
+    .sky  { position:relative; padding:40px 0; background:#040404; text-align:center; }
+    .furl { position:absolute; bottom:20px; left:0; right:0; text-align:center;
+            font-size:clamp(.82rem,2.2vw,1.25rem); font-weight:400;
+            letter-spacing:clamp(4px,2vw,14px); color:var(--white); z-index:2; }
+    .fcopy { background:var(--black); color:var(--grey); padding:11px; font-size:.7rem; text-align:center; letter-spacing:.5px; }
+    .fcopy a { color:var(--green); text-decoration:none; }
+
+    /* SCROLL TOP */
+    #st { position:fixed; bottom:22px; right:22px; width:42px; height:42px;
+          background:var(--green); color:var(--black); border:none; border-radius:3px;
+          font-size:.95rem; cursor:pointer; opacity:0; transform:translateY(14px);
+          transition:all .3s; z-index:999; display:-webkit-box; display:flex;
+          -webkit-box-align:center; align-items:center;
+          -webkit-box-pack:center;  justify-content:center; font-weight:900; }
+    #st.visible { opacity:1; transform:translateY(0); }
+    #st:hover { background:#2fb83e; }
+
+    /* ══════════════════════════════════════════════════════════════
+       RESPONSIVE — mobile Firefox fixes
+       Firefox for Android applies a default minimum font-size of
+       ~9px and doesn't honour -webkit- prefixes, so we:
+         1. Add -moz- prefixed flex where needed
+         2. Ensure tap targets are ≥ 44px (WCAG / Firefox UX pref)
+         3. Remove letter-spacing on tiny text (Firefox renders it
+            wider than Chrome, causing horizontal overflow)
+         4. Force table cells to break long words
+    ══════════════════════════════════════════════════════════════ */
+    @media(max-width:768px){
+      .nav-links,.nav-phone { display:none; }
+      .hamburger { display:block; }
+      #hero img { max-height:260px; }
+
+      /* nav tap targets */
+      .hamburger, .theme-toggle { min-height:44px; min-width:44px; }
+      .hn-hamburger, .hn-theme  { min-height:44px; min-width:44px; }
+
+      /* hero-nav: Firefox needs explicit -moz- flex display */
+      #hero-nav {
+        display:-moz-box; display:flex;
+        -moz-box-align:stretch; align-items:stretch;
+      }
+
+      /* section heading letter-spacing collapses on Firefox mobile */
+      .sec-title { letter-spacing:0; }
+      .sec-label  { letter-spacing:2px; }
+
+      /* works grid */
+      .wgrid { grid-template-columns:1fr 1fr; }
+      .witem.big { grid-column:span 2; aspect-ratio:4/3; }
+
+      /* contact strip: stack vertically, no side borders */
+      .citem { border-right:none; border-bottom:1px solid var(--border); }
+      .citem:last-child { border-bottom:none; }
+
+      section { padding:56px 0; }
+      .nav-inner { padding:0 1rem; }
+    }
+
+    @media(max-width:900px){
+      .wgrid { grid-template-columns:1fr; }
+      .witem.big { grid-column:span 1; }
+
+      /* pcta phone number — prevent horizontal scroll on Firefox */
+      .pcta-num { font-size:clamp(1.4rem,8vw,2.8rem); }
+
+      /* contact strip: stack vertically on small screens */
+      .cgrid { flex-direction:column; }
+      .citem { border-right:none; border-bottom:1px solid var(--border); max-width:none; }
+      .citem:nth-child(2) { flex-basis:auto; min-width:160px; }
+      .citem:last-child { border-bottom:none; }
+    }
+  </style>
+</head>
+<body>
+
+<nav id="mainNav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo"><img src="1778774712766_1234.jpg" alt="DublinPainter.ie logo" /></a>
+    <ul class="nav-links" id="desktopNavLinks"></ul>
+    <a href="tel:0899510552" class="nav-phone d-none d-md-flex align-items-center gap-2"><i class="fas fa-phone-alt"></i>089 951 0552</a>
+    <button class="theme-toggle" id="themeToggleNav" title="Toggle Dark/Light Mode"><i class="fas fa-sun" id="themeIconNav"></i></button>
+    <button class="hamburger" id="hbtnNav"><i class="fas fa-bars"></i></button>
+  </div>
+</nav>
+
+<div id="hero">
+  <img src="mariojpgb_wide.png" id="hero-img"
+       alt="DublinPainter.ie — Professional Painting &amp; Decorating Dublin. Call 089 951 0552 for a free quote."
+       onerror="this.style.display='none'" />
+</div>
+
+<div id="hero-nav">
+  <ul class="hn-links" id="heroNavLinks"></ul>
+  <a href="tel:0899510552" class="hn-phone"><i class="fas fa-phone-alt"></i>089 951 0552</a>
+  <button class="hn-theme" id="themeToggleHero" title="Toggle Dark/Light Mode"><i class="fas fa-sun" id="themeIconHero"></i></button>
+  <button class="hn-hamburger" id="hbtnHero"><i class="fas fa-bars"></i></button>
+</div>
+
+<div class="mob-menu" id="sharedMobMenu"></div>
+
+<!-- PRICES -->
+<section id="prices">
+  <div class="container">
+    <div class="reveal">
+      <span class="sec-label">Transparent Pricing</span>
+      <h2 class="sec-title">Exterior &amp; Interior <span>Painting Costs</span></h2>
+      <div class="sec-line"></div>
+    </div>
+    <div class="row g-3 mb-2 reveal">
+      <div class="col-md-10">
+        <div class="intro-card">
+          <p>All prices include labour and materials.</p>
+          <p>Works include covering furniture and floors with protective dust sheets, filling cracks on walls and ceilings, painting 2 coats of white ceiling emulsion, 2 coats of vinyl matt emulsion on walls and 1 coat of white gloss/satin/eggshell on doors and skirtings.</p>
+          <p>Properties will be inspected before work commences. Colour consultation included.</p>
+          <p>No hidden costs.</p>
+          <p>Communication is key for us.</p>
+        </div>
+      </div>
+      <div class="col-md-2 d-flex align-items-center justify-content-center">
+        <div class="best-badge"><small>BEST</small>PRICE</div>
+      </div>
+    </div>
+
+    <div class="pt-head reveal">Exterior Painting Costs</div>
+    <p class="pt-sub reveal">Pricing includes labour, materials, surface preparation, and paint application. Dublin's weather demands proper prep for a long-lasting, weather-resistant finish.</p>
+    <div class="table-responsive reveal">
+      <table class="ptbl">
+        <thead><tr><th>Property Type</th><th>Size Range</th><th>Estimated Price</th></tr></thead>
+        <tbody>
+          <tr><td>Terraced House</td><td>Small (80–120 m²)</td><td>€1,200 – €2,000</td></tr>
+          <tr><td>Terraced House</td><td>Medium (120–150 m²)</td><td>€1,800 – €2,500</td></tr>
+          <tr><td>Semi-Detached</td><td>Medium (120–180 m²)</td><td>€1,800 – €3,000</td></tr>
+          <tr><td>Semi-Detached</td><td>Large (180–220 m²)</td><td>€2,500 – €3,800</td></tr>
+          <tr><td>Detached House</td><td>Medium (150–220 m²)</td><td>€2,500 – €4,000</td></tr>
+          <tr><td>Detached House</td><td>Large (220–350 m²)</td><td>€3,500 – €5,500</td></tr>
+          <tr><td>Detached House</td><td>Very Large (350+ m²)</td><td>€5,000 – €9,000+</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <ul class="incl reveal">
+      <li>Minor surface repairs</li><li>Priming where required</li><li>Two coats high-quality exterior masonry paint</li>
+    </ul>
+
+    <div class="pt-head reveal">Interior Painting Costs</div>
+    <p class="pt-sub reveal">Costs depend on room size, surface condition, paint quality, and finishing detail required.</p>
+    <div class="table-responsive reveal">
+      <table class="ptbl">
+        <thead><tr><th>Room Type</th><th>Average Size</th><th>Standard Price</th></tr></thead>
+        <tbody>
+          <tr><td>Small Bedroom</td><td>8–12 m²</td><td>€250 – €350</td></tr>
+          <tr><td>Master Bedroom</td><td>15–22 m²</td><td>€350 – €450</td></tr>
+          <tr><td>Living Room</td><td>18–25 m²</td><td>€350 – €500</td></tr>
+          <tr><td>Kitchen</td><td>10–20 m²</td><td>€400 – €550</td></tr>
+          <tr><td>Hallway, Stairs &amp; Landing</td><td>Varies</td><td>€500 – €700</td></tr>
+          <tr><td>Bathroom</td><td>5–10 m²</td><td>€200 – €300</td></tr>
+          <tr><td>Dining Room</td><td>12–20 m²</td><td>€300 – €450</td></tr>
+          <tr><td>Home Office</td><td>8–15 m²</td><td>€250 – €400</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="pt-head reveal">Additional Services</div>
+    <div class="table-responsive reveal">
+      <table class="ptbl additional-services-table" style="max-width:560px">
+        <thead><tr><th>Service</th><th>Estimated Cost</th></tr></thead>
+        <tbody>
+          <tr><td>Ceiling Painting</td><td>€80 – €150 per room</td></tr>
+          <tr><td>Skirting, architraves, window frames</td><td>€120 – €250 per room</td></tr>
+          <tr><td>Feature Wall</td><td>€100 – €200 additional</td></tr>
+          <tr><td>Metal Clading, Barriers and Fences</td><td>Ask</td></tr>
+          <tr><td>Wallpaper</td><td>Ask</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="reveal" style="text-align:center;margin-top:28px;">
+      <button id="downloadPdfBtn" class="fb-btn" style="cursor:pointer;">
+        <i class="fas fa-file-pdf"></i>&nbsp; Download Price List
+      </button>
+    </div>
+  </div>
+  <div class="pcta reveal">
+    <div class="pcta-lbl">FOR FREE QUOTE<br>CONTACT US</div>
+    <a href="tel:0899510552" class="pcta-num"><i class="fas fa-phone-alt"></i> 089 951 0552</a>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="container">
+    <div class="reveal">
+      <span class="sec-label">What We Do</span>
+      <h2 class="sec-title">Our <span>Services</span></h2>
+      <div class="sec-line"></div>
+    </div>
+    <div class="row g-4 reveal">
+      <div class="col-lg-6">
+        <div style="background:var(--card);border:1px solid var(--border);border-radius:5px;padding:30px 32px;height:100%">
+          <h3 style="font-size:1rem;font-weight:800;color:var(--green);margin-bottom:20px;letter-spacing:.5px"><i class="fas fa-paint-roller me-2" style="opacity:.8"></i>Our Painting &amp; Decorating Services</h3>
+          <ul style="list-style:none;padding:0;margin:0">
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Kitchen cabinet painting and refinishing</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Mould-resistant paint application for damp bathrooms</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Interior and exterior painting services</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Professional landlord painting and decorating solutions</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Metal Clading painting and protection</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Barriers and Fences painting and maintenance</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Wallpaper hanging and removal services</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Flexible night-time painting services available to minimise disruption</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div style="background:var(--card);border:1px solid var(--green);border-radius:5px;padding:30px 32px;height:100%">
+          <h3 style="font-size:1rem;font-weight:800;color:var(--green);margin-bottom:20px;letter-spacing:.5px"><i class="fas fa-star me-2" style="opacity:.8"></i>Why Choose Us</h3>
+          <ul style="list-style:none;padding:0;margin:0">
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Free colour consultation and expert paint advice</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Highly experienced and skilled professionals</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Fully registered company</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>High-quality workmanship guaranteed</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Full Public Liability and Employers Liability Insurance</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Reliable, trustworthy, and punctual service</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;border-bottom:1px solid var(--border);font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Clean and tidy work with minimal disruption to your home or business</li>
+            <li style="display:flex;align-items:flex-start;gap:12px;padding:11px 0;font-size:.87rem;color:var(--text);line-height:1.6"><i class="fas fa-check" style="color:var(--green);margin-top:3px;flex-shrink:0"></i>Competitive pricing with excellent value for money</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OUR WORKS -->
+<section id="work">
+  <div class="container">
+    <div class="reveal">
+      <span class="sec-label">Portfolio</span>
+      <h2 class="sec-title">Here you could see some of our <span>works</span></h2>
+      <div class="sec-line"></div>
+    </div>
+    <div class="fb-wrap reveal">
+      <a href="https://www.facebook.com/painter.dublin.1/photos" target="_blank" rel="noopener" class="fb-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="#fff"><path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.269h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+        View More Work on Facebook
+      </a>
+      <span class="fb-sub">See our full portfolio on our Facebook page</span>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT STRIP -->
+<div id="cstrip">
+  <div class="container">
+    <div class="cgrid">
+      <div class="citem reveal"><i class="fas fa-phone-alt"></i><div class="cl">Phone</div><div class="cv"><a href="tel:0899510552">089 951 0552</a></div></div>
+      <div class="citem reveal"><i class="fas fa-envelope"></i><div class="cl">Email</div><div class="cv"><a id="email-link" href="#" aria-label="Send us an email">Loading…</a></div></div>
+      <div class="citem reveal"><i class="fas fa-map-marker-alt"></i><div class="cl">Area Covered</div><div class="cv">Nationwide</div></div>
+      <div class="citem reveal"><i class="fas fa-clock"></i><div class="cl">Working Hours</div><div class="cv">Mon – Sat: 8am – 7pm</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="sky">
+    <div class="furl">From Walls to Woodwork - Perfect Every Time</div>
+  </div>
+  <div class="fcopy">&copy; 2026 — DublinPainter, IE</div>
+</footer>
+
+<button id="st" onclick="window.scrollTo({top:0,behavior:'smooth'})"><i class="fas fa-chevron-up"></i></button>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+var NAV_ITEMS = [
+  { label:'Prices',    href:'#prices'   },
+  { label:'Services',  href:'#services' },
+  { label:'Our Works', href:'#work'     }
+];
+(function(){
+  var ul=document.getElementById('desktopNavLinks');
+  NAV_ITEMS.forEach(function(item){ var li=document.createElement('li'),a=document.createElement('a'); a.href=item.href; a.textContent=item.label; li.appendChild(a); ul.appendChild(li); });
+})();
+(function(){
+  var ul=document.getElementById('heroNavLinks');
+  NAV_ITEMS.forEach(function(item,i){
+    if(i>0){ var sep=document.createElement('li'),d=document.createElement('div'); d.className='hn-sep'; sep.appendChild(d); ul.appendChild(sep); }
+    var li=document.createElement('li'),a=document.createElement('a'); a.href=item.href; a.textContent=item.label; li.appendChild(a); ul.appendChild(li);
+  });
+})();
+(function(){
+  var drawer=document.getElementById('sharedMobMenu');
+  NAV_ITEMS.forEach(function(item){ var a=document.createElement('a'); a.href=item.href; a.textContent=item.label; drawer.appendChild(a); });
+  var ph=document.createElement('a'); ph.href='tel:0899510552'; ph.innerHTML='<i class="fas fa-phone-alt me-2"></i>089 951 0552'; drawer.appendChild(ph);
+})();
+
+function toggleMenu(){ document.getElementById('sharedMobMenu').classList.toggle('open'); }
+function closeMenu() { document.getElementById('sharedMobMenu').classList.remove('open'); }
+document.getElementById('hbtnNav').addEventListener('click',toggleMenu);
+document.getElementById('hbtnHero').addEventListener('click',toggleMenu);
+document.querySelectorAll('#sharedMobMenu a').forEach(function(a){ a.addEventListener('click',closeMenu); });
+
+var nav=document.getElementById('mainNav'), heroNav=document.getElementById('hero-nav'),
+    mobMenu=document.getElementById('sharedMobMenu'), stBtn=document.getElementById('st');
+var wasScrolled=false, wasStVisible=false;
+
+function attachDrawerToHeroNav(){
+  if(heroNav.nextSibling!==mobMenu) heroNav.parentNode.insertBefore(mobMenu,heroNav.nextSibling);
+  mobMenu.style.position='sticky'; mobMenu.style.top='54px';
+}
+function attachDrawerToCompactNav(){
+  if(!nav.contains(mobMenu)) nav.appendChild(mobMenu);
+  mobMenu.style.top=''; mobMenu.style.position='';
+}
+attachDrawerToHeroNav();
+
+window.addEventListener('scroll',function(){
+  var scrolled=heroNav.getBoundingClientRect().bottom<=0;
+  if(scrolled!==wasScrolled){ nav.classList.toggle('scrolled',scrolled); scrolled?attachDrawerToCompactNav():attachDrawerToHeroNav(); wasScrolled=scrolled; }
+  var stV=scrollY>300; if(stV!==wasStVisible){ stBtn.classList.toggle('visible',stV); wasStVisible=stV; }
+  var cur='';
+  document.querySelectorAll('section[id],#hero').forEach(function(s){ if(scrollY>=s.offsetTop-80) cur=s.id; });
+  document.querySelectorAll('.nav-links a,.hn-links a,#sharedMobMenu a').forEach(function(l){ l.classList.remove('active'); if(l.getAttribute('href')==='#'+cur) l.classList.add('active'); });
+});
+
+var io=new IntersectionObserver(function(e){ e.forEach(function(x,i){ if(x.isIntersecting) setTimeout(function(){ x.target.classList.add('visible'); },i*55); }); },{threshold:.08});
+document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+function storageSave(k,v){ try{localStorage.setItem(k,v);}catch(e){} }
+function storageLoad(k)  { try{return localStorage.getItem(k);}catch(e){return null;} }
+
+var tNav=document.getElementById('themeToggleNav'), tHero=document.getElementById('themeToggleHero');
+var iNav=document.getElementById('themeIconNav'),   iHero=document.getElementById('themeIconHero');
+var heroImg=document.getElementById('hero-img');
+
+if(storageLoad('theme')==='light'){
+  document.body.classList.add('light-mode');
+  iNav.classList.replace('fa-sun','fa-moon'); iHero.classList.replace('fa-sun','fa-moon');
+  if(heroImg) heroImg.src='mariojpgw_wide.png';
+} else { if(heroImg) heroImg.src='mariojpgb_wide.png'; }
+
+function toggleTheme(){
+  document.body.classList.toggle('light-mode');
+  var L=document.body.classList.contains('light-mode');
+  iNav.classList.toggle('fa-sun',!L);  iNav.classList.toggle('fa-moon', L);
+  iHero.classList.toggle('fa-sun',!L); iHero.classList.toggle('fa-moon',L);
+  var img=document.getElementById('hero-img'); if(img) img.src=L?'mariojpgw_wide.png':'mariojpgb_wide.png';
+  storageSave('theme',L?'light':'dark');
+}
+tNav.addEventListener('click',toggleTheme); tHero.addEventListener('click',toggleTheme);
+
+document.addEventListener('click',function(e){
+  var el=e.target.closest('a[href^="tel:"]');
+  if(el&&typeof gtag==='function') gtag('event','phone_click',{event_category:'contact',event_label:el.href.replace('tel:','')});
+});
+
+(function(){
+  function rot13(s){ return s.replace(/[a-zA-Z]/g,function(c){ return String.fromCharCode((c<='Z'?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26); }); }
+  var addr='mario'+'@'+['dublinpainter','.ie'].join('');
+  var el=document.getElementById('email-link');
+  if(el){ el.href='mailto:'+addr; el.textContent=addr; el.addEventListener('click',function(){ if(typeof gtag==='function') gtag('event','email_click',{event_category:'contact',event_label:addr}); }); }
+})();
+
+/* ── Mobile card tables: stamp data-label on every <td> ──────────
+   Each <td> gets a data-label matching its column header text.
+   CSS then shows it as the left-hand label in the card layout.   */
+(function(){
+  document.querySelectorAll('.ptbl').forEach(function(tbl){
+    var headers = Array.from(tbl.querySelectorAll('thead th')).map(function(th){
+      return th.textContent.trim();
+    });
+    tbl.querySelectorAll('tbody tr').forEach(function(row){
+      row.querySelectorAll('td').forEach(function(td, i){
+        if(headers[i]) td.setAttribute('data-label', headers[i]);
+      });
+    });
+  });
+})();
+
+/* ── PDF Generation ────────────────────────────────────────────────
+   Produces a professional A4 price list using jsPDF.
+   Dark header band, green accents, alternating rows, contact block.
+─────────────────────────────────────────────────────────────────── */
+document.getElementById('downloadPdfBtn').addEventListener('click', function(){
+  var jsPDF = window.jspdf.jsPDF;
+  var doc   = new jsPDF({ unit:'mm', format:'a4' });
+
+  var PW=210, PH=297, ML=18, MR=18;
+  var CW = PW-ML-MR;
+  var GREEN=[62,207,78], BLACK=[10,10,10], MGREY=[136,136,136], LGREY=[245,245,245], WHITE=[255,255,255];
+
+  function setFill(c){ doc.setFillColor(c[0],c[1],c[2]); }
+  function setTxt(c) { doc.setTextColor(c[0],c[1],c[2]); }
+  function setDrw(c) { doc.setDrawColor(c[0],c[1],c[2]); }
+
+  /* Draw a table; returns Y after last row */
+  function drawTable(headers, rows, colW, y){
+    var headH=9, rowH=8, x=ML;
+    /* header */
+    setFill(GREEN); doc.rect(x,y,CW,headH,'F');
+    doc.setFont('helvetica','bold'); doc.setFontSize(8); setTxt(WHITE);
+    var cx=x;
+    headers.forEach(function(h,i){ doc.text(h,cx+colW[i]/2,y+headH/2+1.5,{align:'center',maxWidth:colW[i]-3}); cx+=colW[i]; });
+    y+=headH;
+    /* rows */
+    rows.forEach(function(row,r){
+      if(y+rowH>PH-22){ doc.addPage(); y=20; }
+      setFill(r%2===0?WHITE:LGREY); doc.rect(x,y,CW,rowH,'F');
+      cx=x;
+      row.forEach(function(cell,i){
+        var last=(i===row.length-1);
+        setTxt(last?GREEN:BLACK);
+        doc.setFont('helvetica',last?'bold':'normal');
+        doc.setFontSize(8);
+        var align=i===0?'left':'center';
+        var tx=i===0?cx+3:cx+colW[i]/2;
+        doc.text(String(cell),tx,y+rowH/2+1.5,{align:align,maxWidth:colW[i]-4});
+        cx+=colW[i];
+      });
+      setDrw([220,220,220]); doc.setLineWidth(0.2); doc.line(x,y+rowH,x+CW,y+rowH);
+      y+=rowH;
+    });
+    setDrw(GREEN); doc.setLineWidth(0.5); doc.rect(x,y-rows.length*rowH-headH,CW,rows.length*rowH+headH,'S');
+    return y;
+  }
+
+  /* Header band */
+  setFill(BLACK); doc.rect(0,0,PW,36,'F');
+  setFill(GREEN); doc.rect(0,36,PW,1.2,'F');
+  doc.setFont('helvetica','bold'); doc.setFontSize(22); setTxt(WHITE);
+  doc.text('DublinPainter.ie',PW/2,16,{align:'center'});
+  doc.setFont('helvetica','normal'); doc.setFontSize(10); setTxt(GREEN);
+  doc.text('Professional Painting & Decorating  |  Price List 2026',PW/2,27,{align:'center'});
+
+  var y=44;
+
+  /* Exterior */
+  doc.setFont('helvetica','bold'); doc.setFontSize(12); setTxt(GREEN);
+  doc.text('Exterior Painting Costs',ML,y); y+=6;
+  y=drawTable(
+    ['Property Type','Size Range','Estimated Price'],
+    [['Terraced House','Small (80-120 m2)','€1,200 - €2,000'],
+     ['Terraced House','Medium (120-150 m2)','€1,800 - €2,500'],
+     ['Semi-Detached','Medium (120-180 m2)','€1,800 - €3,000'],
+     ['Semi-Detached','Large (180-220 m2)','€2,500 - €3,800'],
+     ['Detached House','Medium (150-220 m2)','€2,500 - €4,000'],
+     ['Detached House','Large (220-350 m2)','€3,500 - €5,500'],
+     ['Detached House','Very Large (350+ m2)','€5,000 - €9,000+']],
+    [CW*0.40,CW*0.35,CW*0.25], y);
+  y+=3;
+  doc.setFont('helvetica','italic'); doc.setFontSize(7.5); setTxt(MGREY);
+  doc.text('Includes: Minor surface repairs, priming where required, two coats high-quality exterior masonry paint.',ML,y);
+  y+=9;
+
+  /* Interior */
+  if(y>PH-90){ doc.addPage(); y=20; }
+  doc.setFont('helvetica','bold'); doc.setFontSize(12); setTxt(GREEN);
+  doc.text('Interior Painting Costs',ML,y); y+=6;
+  y=drawTable(
+    ['Room Type','Average Size','Standard Price'],
+    [['Small Bedroom','8-12 m2','€250 - €350'],
+     ['Master Bedroom','15-22 m2','€350 - €450'],
+     ['Living Room','18-25 m2','€350 - €500'],
+     ['Kitchen','10-20 m2','€400 - €550'],
+     ['Hallway, Stairs & Landing','Varies','€500 - €700'],
+     ['Bathroom','5-10 m2','€200 - €300'],
+     ['Dining Room','12-20 m2','€300 - €450'],
+     ['Home Office','8-15 m2','€250 - €400']],
+    [CW*0.44,CW*0.26,CW*0.30], y);
+  y+=9;
+
+  /* Additional */
+  if(y>PH-60){ doc.addPage(); y=20; }
+  doc.setFont('helvetica','bold'); doc.setFontSize(12); setTxt(GREEN);
+  doc.text('Additional Services',ML,y); y+=6;
+  y=drawTable(
+    ['Service','Estimated Cost'],
+    [['Ceiling Painting','€80 - €150 per room'],
+     ['Woodwork (skirting, architraves, window frames)','€120 - €250 per room'],
+     ['Feature Wall','€100 - €200 additional'],
+     ['Metal Clading, Barriers and Fences','Ask'],
+     ['Wallpaper','Ask']],
+    [CW*0.62,CW*0.38], y);
+  y+=5;
+
+  /* Note */
+  doc.setFont('helvetica','normal'); doc.setFontSize(7.5); setTxt(MGREY);
+  var noteLines=doc.splitTextToSize(
+    'All prices include labour and materials. Works include covering furniture/floors with dust sheets, '+
+    'filling cracks, 2 coats ceiling emulsion, 2 coats vinyl matt on walls, 1 coat gloss/satin on doors & skirtings. '+
+    'Free colour consultation included. No hidden costs.',CW);
+  doc.text(noteLines,ML,y); y+=noteLines.length*4+6;
+
+  /* Green rule */
+  setFill(GREEN); doc.rect(ML,y,CW,0.8,'F'); y+=6;
+
+  /* Contact block */
+  if(y>PH-26){ doc.addPage(); y=20; }
+  var cW4=CW/4;
+  setFill(LGREY); doc.rect(ML,y,CW,18,'F');
+  setDrw(GREEN); doc.setLineWidth(0.5); doc.rect(ML,y,CW,18,'S');
+  [['Phone','089 951 0552'],['Email','mario@dublinpainter.ie'],['Hours','Mon-Sat: 8am-7pm'],['Web','www.dublinpainter.ie']]
+  .forEach(function(p,i){
+    var cx=ML+i*cW4+cW4/2;
+    doc.setFont('helvetica','bold'); doc.setFontSize(7); setTxt(MGREY);
+    doc.text(p[0].toUpperCase(),cx,y+6,{align:'center'});
+    doc.setFont('helvetica','bold'); doc.setFontSize(8); setTxt(BLACK);
+    doc.text(p[1],cx,y+13,{align:'center',maxWidth:cW4-4});
+  });
+
+  doc.save('DublinPainter-Price-List.pdf');
+});
+</script>
+</body>
+</html>
