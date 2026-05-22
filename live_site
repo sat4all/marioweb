@@ -1,0 +1,1779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
+  <title>DublinPainter.ie | Professional Painting &amp; Decorating Services Dublin</title>
+  <meta name="description" content="Professional painter and decorator based in Dublin. Interior &amp; exterior painting, kitchen cabinet refinishing, mould-resistant coatings. Free quotes — call 089 951 0552." />
+  <meta name="keywords" content="painter Dublin, decorator Dublin, exterior painting Dublin, interior painting, house painter Dublin, painting services Ireland, DublinPainter" />
+  <meta name="author" content="DublinPainter.ie" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.dublinpainter.ie/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.dublinpainter.ie/" />
+  <meta property="og:title" content="DublinPainter.ie | Professional Painting &amp; Decorating Dublin" />
+  <meta property="og:description" content="Trusted Dublin painter &amp; decorator. Interior, exterior, cabinet &amp; landlord painting. Fully insured. Free colour consultation. Call 089 951 0552." />
+  <meta property="og:image" content="https://www.dublinpainter.ie/mariojpgb_wide.png" />
+  <meta property="og:locale" content="en_IE" />
+  <meta property="og:site_name" content="DublinPainter.ie" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="DublinPainter.ie | Professional Painting Dublin" />
+  <meta name="twitter:description" content="Interior &amp; exterior painting, free quotes. Call 089 951 0552." />
+  <meta name="twitter:image" content="https://www.dublinpainter.ie/mariojpgb_wide.png" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "@id": "https://www.dublinpainter.ie/#business",
+    "name": "DublinPainter.ie",
+    "description": "Professional painter and decorator in Dublin offering interior and exterior painting, kitchen cabinet refinishing, mould-resistant coatings, and landlord painting services.",
+    "url": "https://www.dublinpainter.ie/",
+    "logo": "https://www.dublinpainter.ie/mariojpgb_wide.png",
+    "image": "https://www.dublinpainter.ie/mariojpgb_wide.png",
+    "telephone": "+353899510552",
+    "email": "mario@dublinpainter.ie",
+    "priceRange": "€€",
+    "currenciesAccepted": "EUR",
+    "paymentAccepted": "Cash, Bank Transfer",
+    "areaServed": { "@type": "Country", "name": "Ireland" },
+    "address": { "@type": "PostalAddress", "addressLocality": "Dublin", "addressCountry": "IE" },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "08:00", "closes": "19:00"
+    }]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,900;1,9..144,400&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+
+  <style>
+    /* ══════════════════════════════════════════════════
+       DESIGN TOKENS — CSS Variables
+    ══════════════════════════════════════════════════ */
+    :root {
+      /* Brand */
+      --green:       #22c55e;
+      --green-light: #4ade80;
+      --green-dark:  #16a34a;
+      --green-glow:  rgba(34, 197, 94, 0.15);
+      --green-subtle:rgba(34, 197, 94, 0.08);
+
+      /* Surface (dark) */
+      --bg:          #09090b;
+      --surface-0:   #09090b;
+      --surface-1:   #111113;
+      --surface-2:   #18181b;
+      --surface-3:   #27272a;
+      --border:      rgba(255,255,255,0.08);
+      --border-hover:rgba(34,197,94,0.35);
+
+      /* Text (dark) */
+      --text-primary:   #fafafa;
+      --text-secondary: #a1a1aa;
+      --text-muted:     #52525b;
+
+      /* Shadows */
+      --shadow-sm:  0 1px 3px rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
+      --shadow-md:  0 4px 16px rgba(0,0,0,0.5);
+      --shadow-lg:  0 20px 60px rgba(0,0,0,0.6);
+      --shadow-green: 0 0 30px rgba(34,197,94,0.2);
+
+      /* Layout */
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --radius-xl: 24px;
+      --max-w: 1080px;
+
+      /* Nav */
+      --nav-h: 60px;
+
+      /* Transitions */
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
+      --t-fast: 0.15s;
+      --t-base: 0.25s;
+      --t-slow: 0.4s;
+    }
+
+    /* Light mode overrides */
+    body.light {
+      --bg:          #f8fafc;
+      --surface-0:   #f8fafc;
+      --surface-1:   #ffffff;
+      --surface-2:   #f1f5f9;
+      --surface-3:   #e2e8f0;
+      --border:      rgba(0,0,0,0.07);
+      --border-hover:rgba(34,197,94,0.4);
+      --text-primary:   #09090b;
+      --text-secondary: #52525b;
+      --text-muted:     #a1a1aa;
+      --shadow-sm:  0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.05);
+      --shadow-md:  0 4px 16px rgba(0,0,0,0.1);
+      --shadow-lg:  0 20px 60px rgba(0,0,0,0.12);
+      --shadow-green: 0 0 30px rgba(34,197,94,0.15);
+    }
+
+    /* ══════════════════════════════════════════════════
+       RESET & BASE
+    ══════════════════════════════════════════════════ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+    body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text-primary);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      transition: background var(--t-slow) var(--ease), color var(--t-slow) var(--ease);
+    }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; height: auto; display: block; }
+    button { font-family: inherit; cursor: pointer; border: none; background: none; }
+    ul { list-style: none; }
+
+    /* ══════════════════════════════════════════════════
+       SCROLLBAR
+    ══════════════════════════════════════════════════ */
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: var(--surface-0); }
+    ::-webkit-scrollbar-thumb { background: var(--green); border-radius: 99px; }
+
+    /* ══════════════════════════════════════════════════
+       LAYOUT HELPERS
+    ══════════════════════════════════════════════════ */
+    .container {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* ══════════════════════════════════════════════════
+       NAVIGATION
+    ══════════════════════════════════════════════════ */
+    #nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 900;
+      height: var(--nav-h);
+      background: rgba(9,9,11,0.85);
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      border-bottom: 1px solid var(--border);
+      transition: background var(--t-slow) var(--ease), border-color var(--t-base);
+    }
+    body.light #nav {
+      background: rgba(248,250,252,0.85);
+    }
+    #nav.scrolled {
+      border-bottom-color: var(--border-hover);
+    }
+    .nav-inner {
+      height: var(--nav-h);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Fraunces', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.02em;
+    }
+    .brand-dot { color: var(--green); }
+    .nav-links-desktop {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .nav-links-desktop a {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      padding: 6px 14px;
+      border-radius: var(--radius-sm);
+      letter-spacing: 0.01em;
+      transition: color var(--t-fast), background var(--t-fast);
+    }
+    .nav-links-desktop a:hover,
+    .nav-links-desktop a.active {
+      color: var(--text-primary);
+      background: var(--surface-3);
+    }
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .btn-call-nav {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--green);
+      color: #fff;
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: var(--radius-sm);
+      transition: background var(--t-fast), transform var(--t-fast), box-shadow var(--t-fast);
+      white-space: nowrap;
+    }
+    .btn-call-nav:hover {
+      background: var(--green-dark);
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-green);
+    }
+    .btn-theme {
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-sm);
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      transition: background var(--t-fast), color var(--t-fast);
+      flex-shrink: 0;
+    }
+    .btn-theme:hover { background: var(--surface-3); color: var(--text-primary); }
+    .btn-hamburger {
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-sm);
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+    }
+
+    /* Mobile Drawer */
+    .mob-drawer {
+      position: fixed;
+      top: var(--nav-h);
+      left: 0; right: 0;
+      background: var(--surface-1);
+      border-bottom: 1px solid var(--border);
+      z-index: 899;
+      padding: 12px 20px 16px;
+      transform: translateY(-110%);
+      opacity: 0;
+      transition: transform var(--t-base) var(--ease), opacity var(--t-base);
+      backdrop-filter: blur(16px);
+    }
+    .mob-drawer.open {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    .mob-drawer a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 4px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--text-secondary);
+      border-bottom: 1px solid var(--border);
+      transition: color var(--t-fast);
+    }
+    .mob-drawer a:last-child { border-bottom: none; }
+    .mob-drawer a:hover { color: var(--green); }
+
+    /* ══════════════════════════════════════════════════
+       HERO
+    ══════════════════════════════════════════════════ */
+    #hero {
+      position: relative;
+      padding-top: var(--nav-h);
+      overflow: hidden;
+      background: var(--surface-0);
+    }
+    .hero-img-wrap {
+      position: relative;
+      width: 100%;
+      max-height: 420px;
+      overflow: hidden;
+    }
+    .hero-img-wrap::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 60%;
+      background: linear-gradient(to bottom, transparent, var(--bg));
+      pointer-events: none;
+    }
+    .hero-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      filter: brightness(0.85);
+      transition: filter var(--t-slow);
+    }
+    body.light .hero-img-wrap img { filter: brightness(0.95); }
+
+    /* Hero pill nav */
+    .hero-subnav {
+      position: sticky;
+      top: var(--nav-h);
+      z-index: 800;
+      background: var(--surface-1);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      overflow-x: auto;
+      scrollbar-width: none;
+    }
+    .hero-subnav::-webkit-scrollbar { display: none; }
+    .hero-subnav a {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      padding: 14px 22px;
+      white-space: nowrap;
+      position: relative;
+      transition: color var(--t-fast);
+    }
+    .hero-subnav a::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 16px; right: 16px;
+      height: 2px;
+      background: var(--green);
+      border-radius: 2px 2px 0 0;
+      transform: scaleX(0);
+      transition: transform var(--t-base) var(--ease);
+    }
+    .hero-subnav a:hover,
+    .hero-subnav a.active { color: var(--text-primary); }
+    .hero-subnav a:hover::after,
+    .hero-subnav a.active::after { transform: scaleX(1); }
+    .hero-subnav .sep {
+      width: 1px;
+      height: 20px;
+      background: var(--border);
+      flex-shrink: 0;
+    }
+    .hero-subnav-phone {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: var(--green) !important;
+      padding: 0 20px !important;
+      margin-left: auto;
+      border-left: 1px solid var(--border);
+    }
+    .hero-subnav-phone::after { display: none !important; }
+    .hero-subnav-phone:hover { color: var(--green-light) !important; }
+
+    /* ══════════════════════════════════════════════════
+       SECTION COMMONS
+    ══════════════════════════════════════════════════ */
+    section { padding: 72px 0; }
+    .sec-eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .sec-eyebrow::before {
+      content: '';
+      width: 20px;
+      height: 2px;
+      background: var(--green);
+      border-radius: 2px;
+      flex-shrink: 0;
+    }
+    .sec-title {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.7rem, 4vw, 2.5rem);
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+    .sec-title em {
+      font-style: italic;
+      color: var(--green);
+    }
+    .sec-sub {
+      font-size: 0.93rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      max-width: 560px;
+      margin-bottom: 32px;
+    }
+
+    /* Reveal animation */
+    .reveal {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.55s var(--ease), transform 0.55s var(--ease);
+    }
+    .reveal.vis { opacity: 1; transform: translateY(0); }
+
+    /* ══════════════════════════════════════════════════
+       PRICES SECTION
+    ══════════════════════════════════════════════════ */
+    #prices { background: var(--surface-0); }
+
+    /* Included-in-price banner */
+    .included-banner {
+      background: var(--surface-1);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--green);
+      border-radius: var(--radius-md);
+      padding: 20px 24px;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 40px;
+      box-shadow: var(--shadow-sm);
+    }
+    .included-text p {
+      font-size: 0.87rem;
+      color: var(--text-secondary);
+      line-height: 1.75;
+    }
+    .included-text p + p { margin-top: 6px; }
+    .best-badge {
+      width: 82px;
+      height: 82px;
+      border-radius: 50%;
+      border: 2.5px dashed var(--green);
+      background: var(--green-subtle);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: var(--green);
+      font-weight: 800;
+      font-size: 0.95rem;
+      text-align: center;
+      line-height: 1.1;
+      flex-shrink: 0;
+      animation: badge-pulse 2.5s ease-in-out infinite;
+    }
+    .best-badge small {
+      font-size: 0.58rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    @keyframes badge-pulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(34,197,94,0.25); }
+      50%       { transform: scale(1.05); box-shadow: 0 0 0 10px rgba(34,197,94,0); }
+    }
+
+    /* Price section header */
+    .price-section-hd {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 40px 0 6px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+    .price-section-hd-icon {
+      width: 34px;
+      height: 34px;
+      background: var(--green-subtle);
+      border: 1px solid rgba(34,197,94,0.2);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--green);
+      font-size: 0.85rem;
+      flex-shrink: 0;
+    }
+    .price-section-hd-text { flex: 1; }
+    .price-section-hd-text h3 {
+      font-size: 0.96rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+    }
+    .price-section-hd-text p {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 1px;
+    }
+
+    /* Price cards grid */
+    .price-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .price-card {
+      background: var(--surface-1);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: 16px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      transition: border-color var(--t-fast), background var(--t-fast), transform var(--t-fast), box-shadow var(--t-fast);
+      cursor: default;
+    }
+    .price-card:hover {
+      border-color: var(--border-hover);
+      background: var(--surface-2);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+    .price-card-left { flex: 1; min-width: 0; }
+    .price-card-type {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 2px;
+    }
+    .price-card-size {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+    .price-card-amount {
+      font-family: 'Fraunces', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--green);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    /* Included chips */
+    .incl-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin: 14px 0 0;
+    }
+    .incl-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.74rem;
+      font-weight: 500;
+      color: var(--green);
+      background: var(--green-subtle);
+      border: 1px solid rgba(34,197,94,0.15);
+      padding: 4px 10px;
+      border-radius: 99px;
+    }
+    .incl-chip i { font-size: 0.65rem; }
+
+    /* Additional services — compact list */
+    .add-list {
+      background: var(--surface-1);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+    }
+    .add-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 13px 18px;
+      border-bottom: 1px solid var(--border);
+      transition: background var(--t-fast);
+    }
+    .add-row:last-child { border-bottom: none; }
+    .add-row:hover { background: var(--surface-2); }
+    .add-row-name {
+      font-size: 0.87rem;
+      font-weight: 500;
+      color: var(--text-primary);
+    }
+    .add-row-price {
+      font-size: 0.87rem;
+      font-weight: 700;
+      color: var(--green);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    /* CTA bar */
+    .price-cta {
+      background: var(--surface-1);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 40px 32px;
+      text-align: center;
+      margin-top: 48px;
+      box-shadow: var(--shadow-md);
+    }
+    .price-cta-label {
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+    .price-cta-title {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+    }
+    .price-cta-title span { color: var(--green); font-style: italic; }
+    .cta-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      justify-content: center;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      background: var(--green);
+      color: #fff;
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding: 13px 24px;
+      border-radius: var(--radius-md);
+      transition: background var(--t-fast), transform var(--t-fast), box-shadow var(--t-fast);
+      cursor: pointer;
+    }
+    .btn-primary:hover {
+      background: var(--green-dark);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-green);
+    }
+    .btn-primary:active { transform: translateY(0); }
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      background: var(--surface-2);
+      color: var(--text-primary);
+      font-size: 0.9rem;
+      font-weight: 600;
+      padding: 13px 24px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+      transition: background var(--t-fast), border-color var(--t-fast), transform var(--t-fast);
+      cursor: pointer;
+    }
+    .btn-secondary:hover {
+      background: var(--surface-3);
+      border-color: var(--border-hover);
+      transform: translateY(-2px);
+    }
+    .blink-cta {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #f87171;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      animation: blink-text 1.8s ease-in-out infinite;
+      display: block;
+      margin-bottom: 6px;
+    }
+    @keyframes blink-text {
+      0%, 100% { opacity: 1; }
+      50%       { opacity: 0.4; }
+    }
+
+    /* ══════════════════════════════════════════════════
+       SERVICES SECTION
+    ══════════════════════════════════════════════════ */
+    #services {
+      background: var(--surface-1);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .services-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .srv-card {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      transition: border-color var(--t-base), box-shadow var(--t-base);
+    }
+    .srv-card.featured {
+      border-color: rgba(34,197,94,0.3);
+      background: linear-gradient(135deg, var(--surface-2) 0%, rgba(34,197,94,0.04) 100%);
+    }
+    .srv-card:hover { border-color: var(--border-hover); box-shadow: var(--shadow-md); }
+    .srv-card-head {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .srv-card-icon {
+      width: 40px;
+      height: 40px;
+      background: var(--green-subtle);
+      border: 1px solid rgba(34,197,94,0.2);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--green);
+      font-size: 0.95rem;
+      flex-shrink: 0;
+    }
+    .srv-card-title {
+      font-size: 0.93rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+    .srv-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 9px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+    .srv-list li:last-child { border-bottom: none; padding-bottom: 0; }
+    .srv-check {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+      background: var(--green-subtle);
+      border: 1px solid rgba(34,197,94,0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .srv-check i { font-size: 0.55rem; color: var(--green); }
+
+    /* ══════════════════════════════════════════════════
+       WORKS SECTION
+    ══════════════════════════════════════════════════ */
+    #work { background: var(--surface-0); }
+    .fb-cta-card {
+      background: var(--surface-1);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 44px 32px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+    .fb-cta-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: var(--radius-md);
+      background: #1877f2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 1.4rem;
+    }
+    .fb-cta-title {
+      font-family: 'Fraunces', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.02em;
+    }
+    .fb-cta-sub {
+      font-size: 0.87rem;
+      color: var(--text-secondary);
+      max-width: 360px;
+    }
+    .btn-facebook {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #1877f2;
+      color: #fff;
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding: 13px 28px;
+      border-radius: var(--radius-md);
+      transition: background var(--t-fast), transform var(--t-fast), box-shadow var(--t-fast);
+    }
+    .btn-facebook:hover {
+      background: #0d65d9;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(24,119,242,0.35);
+    }
+
+    /* ══════════════════════════════════════════════════
+       CONTACT STRIP
+    ══════════════════════════════════════════════════ */
+    #contact {
+      background: var(--surface-1);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 48px 0;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .contact-item {
+      background: var(--surface-1);
+      padding: 24px 20px;
+      text-align: center;
+      transition: background var(--t-fast);
+    }
+    .contact-item:hover { background: var(--surface-2); }
+    .contact-item i {
+      font-size: 1.2rem;
+      color: var(--green);
+      margin-bottom: 10px;
+      display: block;
+    }
+    .contact-label {
+      font-size: 0.66rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 5px;
+    }
+    .contact-val {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+    .contact-val a {
+      color: var(--text-primary);
+      transition: color var(--t-fast);
+    }
+    .contact-val a:hover { color: var(--green); }
+
+    /* ══════════════════════════════════════════════════
+       FOOTER
+    ══════════════════════════════════════════════════ */
+    footer {
+      background: var(--surface-0);
+      border-top: 1px solid var(--border);
+      padding: 28px 0;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .footer-tagline {
+      font-family: 'Fraunces', serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: var(--text-secondary);
+      letter-spacing: -0.01em;
+    }
+    .footer-tagline span { color: var(--green); }
+    .footer-copy {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+
+    /* ══════════════════════════════════════════════════
+       SCROLL TO TOP
+    ══════════════════════════════════════════════════ */
+    #scroll-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 40px;
+      height: 40px;
+      background: var(--green);
+      color: #fff;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity var(--t-base), transform var(--t-base), background var(--t-fast);
+      pointer-events: none;
+      z-index: 800;
+      box-shadow: var(--shadow-md);
+    }
+    #scroll-top.vis {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: all;
+    }
+    #scroll-top:hover { background: var(--green-dark); }
+
+    /* ══════════════════════════════════════════════════
+       MOBILE STICKY BAR
+    ══════════════════════════════════════════════════ */
+    .sticky-mob-bar {
+      display: none;
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      z-index: 890;
+      background: var(--surface-1);
+      border-top: 1px solid var(--border);
+      padding: 10px 16px;
+      gap: 10px;
+    }
+    .sticky-mob-bar .btn-primary,
+    .sticky-mob-bar .btn-secondary {
+      flex: 1;
+      justify-content: center;
+      font-size: 0.82rem;
+      padding: 11px 12px;
+    }
+
+    /* ══════════════════════════════════════════════════
+       PRINT STYLES
+    ══════════════════════════════════════════════════ */
+    @media print {
+      #nav, .hero-subnav, #hero, #work, #contact, footer,
+      #scroll-top, .sticky-mob-bar, .cta-actions, .mob-drawer { display: none !important; }
+      body { background: #fff !important; color: #000 !important; }
+      #prices { padding: 0 !important; }
+      .price-card { border: 1px solid #ddd !important; break-inside: avoid; }
+      .sec-title, .price-card-type, .price-card-amount { color: #000 !important; }
+      .sec-eyebrow { color: #166534 !important; }
+      .price-cta { display: none !important; }
+    }
+
+    /* ══════════════════════════════════════════════════
+       RESPONSIVE
+    ══════════════════════════════════════════════════ */
+    @media (max-width: 900px) {
+      .services-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 768px) {
+      .nav-links-desktop { display: none; }
+      .btn-call-nav { display: none; }
+      .btn-hamburger { display: flex; }
+      .hero-subnav-phone { display: none; }
+      .contact-grid { grid-template-columns: 1fr 1fr; }
+      .footer-inner { flex-direction: column; text-align: center; }
+      .sticky-mob-bar { display: flex; }
+      body { padding-bottom: 72px; }
+      section { padding: 52px 0; }
+    }
+    @media (max-width: 500px) {
+      .contact-grid { grid-template-columns: 1fr; }
+      .included-banner { grid-template-columns: 1fr; }
+      .best-badge { margin: 0 auto; }
+      .price-grid { grid-template-columns: 1fr; }
+      .hero-subnav a { padding: 12px 14px; font-size: 0.72rem; }
+    }
+    @media (max-width: 380px) {
+      .hero-subnav a { padding: 12px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════════════ -->
+  <nav id="nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <!-- Brand -->
+        <a href="#hero" class="nav-brand" aria-label="DublinPainter.ie home">
+          <img src="1778774712766_1234.jpg" alt="DublinPainter.ie" onerror="this.style.display='none'" />
+          Dublin<span class="brand-dot">Painter</span>.ie
+        </a>
+
+        <!-- Desktop links -->
+        <ul class="nav-links-desktop" role="list" id="desktop-nav"></ul>
+
+        <!-- Right controls -->
+        <div class="nav-right">
+          <a href="tel:0899510552" class="btn-call-nav" aria-label="Call us at 089 951 0552">
+            <i class="fas fa-phone-alt" aria-hidden="true"></i>
+            089 951 0552
+          </a>
+          <button class="btn-theme" id="theme-btn" aria-label="Toggle light/dark mode" title="Toggle theme">
+            <i class="fas fa-sun" id="theme-icon" aria-hidden="true"></i>
+          </button>
+          <button class="btn-hamburger" id="hamburger-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mob-drawer">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="mob-drawer" id="mob-drawer" role="dialog" aria-label="Mobile navigation" aria-modal="false"></div>
+
+  <!-- ══════════════════════════════════════════════
+       HERO IMAGE
+  ══════════════════════════════════════════════ -->
+  <div id="hero" aria-hidden="true">
+    <div class="hero-img-wrap">
+      <img src="mariojpgb_wide.png" id="hero-img"
+           alt="DublinPainter.ie — Professional painting and decorating in Dublin"
+           loading="eager"
+           onerror="this.closest('.hero-img-wrap').style.display='none'" />
+    </div>
+  </div>
+
+  <!-- Sub-navigation (sticky after hero) -->
+  <nav class="hero-subnav" id="hero-subnav" aria-label="Section navigation">
+    <a href="#services" class="active" aria-label="Go to Services"><i class="fas fa-paint-roller" aria-hidden="true"></i> Services</a>
+    <div class="sep" role="separator"></div>
+    <a href="#work"     aria-label="Go to Our Works"><i class="fas fa-images" aria-hidden="true"></i> Our Works</a>
+    <div class="sep" role="separator"></div>
+    <a href="#contact"  aria-label="Go to Contact"><i class="fas fa-envelope" aria-hidden="true"></i> Contact</a>
+  </nav>
+
+  <!-- ══════════════════════════════════════════════
+       PRICES
+  ══════════════════════════════════════════════ -->
+  <section id="prices" aria-labelledby="prices-heading">
+    <div class="container">
+
+      <!-- Section header -->
+      <div class="reveal">
+        <p class="sec-eyebrow">Painting Prices 2026</p>
+        <h1 id="prices-heading" class="sec-title">Exterior &amp; Interior <em>Painting Costs</em></h1>
+        <p class="sec-sub">Transparent pricing with no hidden fees. All prices include labour, tools, surface preparation, and a free colour consultation.</p>
+      </div>
+
+      <!-- Included banner -->
+      <div class="included-banner reveal" role="region" aria-label="What's included">
+        <div class="included-text">
+          <p>✅ <strong>All prices include labour and tools</strong></p>
+          <p>Works include covering furniture and floors with dust sheets, filling cracks on walls and ceilings, 2 coats of white ceiling emulsion, 2 coats of vinyl matt emulsion on walls and 1 coat of gloss/satin on doors and skirtings.</p>
+          <p>Properties are inspected before work commences. Free colour consultation included. <strong>No hidden costs.</strong></p>
+        </div>
+        <div class="best-badge" aria-label="Best price guaranteed">
+          <small>BEST</small>PRICE
+        </div>
+      </div>
+
+      <!-- ── EXTERIOR ── -->
+      <div class="price-section-hd reveal">
+        <div class="price-section-hd-icon" aria-hidden="true"><i class="fas fa-home"></i></div>
+        <div class="price-section-hd-text">
+          <h2>Exterior Painting Costs</h2>
+          <p>Labour, tools, surface prep &amp; two coats weather-resistant masonry paint</p>
+        </div>
+      </div>
+      <div class="price-grid reveal" role="list" aria-label="Exterior painting price list">
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Terraced House</div>
+            <div class="price-card-size">Small · 80–120 m²</div>
+          </div>
+          <div class="price-card-amount" aria-label="Price €1,200 to €2,000">€1,200 – €2,000</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Terraced House</div>
+            <div class="price-card-size">Medium · 120–150 m²</div>
+          </div>
+          <div class="price-card-amount" aria-label="Price €1,800 to €2,500">€1,800 – €2,500</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Semi-Detached</div>
+            <div class="price-card-size">Medium · 120–180 m²</div>
+          </div>
+          <div class="price-card-amount" aria-label="Price €1,800 to €3,000">€1,800 – €3,000</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Semi-Detached</div>
+            <div class="price-card-size">Large · 180–220 m²</div>
+          </div>
+          <div class="price-card-amount" aria-label="Price €2,500 to €3,800">€2,500 – €3,800</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Detached House</div>
+            <div class="price-card-size">Medium · 150–220 m²</div>
+          </div>
+          <div class="price-card-amount" aria-label="Price €2,500 to €4,000">€2,500 – €4,000</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Detached House</div>
+            <div class="price-card-size">Large · 220–350 m²</div>
+          </div>
+          <div class="price-card-amount" aria-label="Price €3,500 to €5,500">€3,500 – €5,500</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Detached House</div>
+            <div class="price-card-size">Very Large · 350+ m²</div>
+          </div>
+          <div class="price-card-amount" aria-label="Price €5,000 to €9,000 plus">€5,000 – €9,000+</div>
+        </article>
+      </div>
+      <div class="incl-chips reveal" aria-label="Exterior package includes">
+        <span class="incl-chip"><i class="fas fa-check" aria-hidden="true"></i> Minor surface repairs</span>
+        <span class="incl-chip"><i class="fas fa-check" aria-hidden="true"></i> Priming where required</span>
+        <span class="incl-chip"><i class="fas fa-check" aria-hidden="true"></i> 2 coats masonry paint</span>
+      </div>
+
+      <!-- ── INTERIOR ── -->
+      <div class="price-section-hd reveal">
+        <div class="price-section-hd-icon" aria-hidden="true"><i class="fas fa-couch"></i></div>
+        <div class="price-section-hd-text">
+          <h2>Interior Painting Costs</h2>
+          <p>Pricing depends on room size, surface condition, and finish required</p>
+        </div>
+      </div>
+      <div class="price-grid reveal" role="list" aria-label="Interior painting price list">
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Small Bedroom</div>
+            <div class="price-card-size">8–12 m²</div>
+          </div>
+          <div class="price-card-amount">€250 – €350</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Master Bedroom</div>
+            <div class="price-card-size">15–22 m²</div>
+          </div>
+          <div class="price-card-amount">€350 – €450</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Living Room</div>
+            <div class="price-card-size">18–25 m²</div>
+          </div>
+          <div class="price-card-amount">€350 – €500</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Kitchen</div>
+            <div class="price-card-size">10–20 m²</div>
+          </div>
+          <div class="price-card-amount">€400 – €550</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Hallway, Stairs &amp; Landing</div>
+            <div class="price-card-size">Varies</div>
+          </div>
+          <div class="price-card-amount">€500 – €700</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Bathroom</div>
+            <div class="price-card-size">5–10 m²</div>
+          </div>
+          <div class="price-card-amount">€200 – €300</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Dining Room</div>
+            <div class="price-card-size">12–20 m²</div>
+          </div>
+          <div class="price-card-amount">€300 – €450</div>
+        </article>
+        <article class="price-card" role="listitem">
+          <div class="price-card-left">
+            <div class="price-card-type">Home Office</div>
+            <div class="price-card-size">8–15 m²</div>
+          </div>
+          <div class="price-card-amount">€250 – €400</div>
+        </article>
+      </div>
+
+      <!-- ── ADDITIONAL ── -->
+      <div class="price-section-hd reveal">
+        <div class="price-section-hd-icon" aria-hidden="true"><i class="fas fa-plus"></i></div>
+        <div class="price-section-hd-text">
+          <h2>Additional Services</h2>
+          <p>Optional extras and specialist services</p>
+        </div>
+      </div>
+      <div class="add-list reveal" role="list" aria-label="Additional services price list">
+        <div class="add-row" role="listitem">
+          <span class="add-row-name">Ceiling Painting</span>
+          <span class="add-row-price">€80 – €150 per room</span>
+        </div>
+        <div class="add-row" role="listitem">
+          <span class="add-row-name">Skirting, Architraves &amp; Window Frames</span>
+          <span class="add-row-price">€120 – €250 per room</span>
+        </div>
+        <div class="add-row" role="listitem">
+          <span class="add-row-name">Feature Wall</span>
+          <span class="add-row-price">€100 – €200 additional</span>
+        </div>
+        <div class="add-row" role="listitem">
+          <span class="add-row-name">Metal Cladding, Barriers &amp; Fences</span>
+          <span class="add-row-price">Ask for quote</span>
+        </div>
+        <div class="add-row" role="listitem">
+          <span class="add-row-name">Wallpaper Hanging &amp; Removal</span>
+          <span class="add-row-price">Ask for quote</span>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="price-cta reveal">
+        <p class="blink-cta" aria-live="polite">Free Quote Available Now</p>
+        <h2 class="price-cta-title">Get a <em>free quote</em> today</h2>
+        <div class="cta-actions">
+          <a href="tel:0899510552" class="btn-primary" aria-label="Call us now for a free quote">
+            <i class="fas fa-phone-alt" aria-hidden="true"></i>
+            Call 089 951 0552
+          </a>
+          <button id="download-pdf-btn" class="btn-secondary" aria-label="Download price list as PDF">
+            <i class="fas fa-file-pdf" aria-hidden="true"></i>
+            Download Price List
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       SERVICES
+  ══════════════════════════════════════════════ -->
+  <section id="services" aria-labelledby="services-heading">
+    <div class="container">
+      <div class="reveal">
+        <p class="sec-eyebrow">What We Do</p>
+        <h2 id="services-heading" class="sec-title">Our <em>Services</em></h2>
+        <p class="sec-sub">Complete painting and decorating solutions for homes and businesses across Dublin and Greater Dublin Area.</p>
+      </div>
+      <div class="services-grid reveal">
+        <!-- Services list -->
+        <div class="srv-card">
+          <div class="srv-card-head">
+            <div class="srv-card-icon" aria-hidden="true"><i class="fas fa-paint-roller"></i></div>
+            <h3 class="srv-card-title">Painting &amp; Decorating Services</h3>
+          </div>
+          <ul class="srv-list" role="list">
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Kitchen cabinet painting and refinishing</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Mould-resistant paint for damp bathrooms</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Interior and exterior painting services</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Professional landlord painting solutions</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Metal cladding painting and protection</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Barriers and fences painting and maintenance</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Wallpaper hanging and removal services</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Flexible night-time painting to minimise disruption</li>
+          </ul>
+        </div>
+        <!-- Why choose us -->
+        <div class="srv-card featured">
+          <div class="srv-card-head">
+            <div class="srv-card-icon" aria-hidden="true"><i class="fas fa-star"></i></div>
+            <h3 class="srv-card-title">Why Choose Us</h3>
+          </div>
+          <ul class="srv-list" role="list">
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Free colour consultation and expert paint advice</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Highly experienced and skilled professionals</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Fully registered company</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>High-quality workmanship guaranteed</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Full Public &amp; Employers Liability Insurance</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Reliable, trustworthy, and punctual service</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Clean and tidy — minimal disruption to your home</li>
+            <li><div class="srv-check" aria-hidden="true"><i class="fas fa-check"></i></div>Competitive pricing with excellent value for money</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       OUR WORKS
+  ══════════════════════════════════════════════ -->
+  <section id="work" aria-labelledby="work-heading">
+    <div class="container">
+      <div class="reveal">
+        <p class="sec-eyebrow">Portfolio</p>
+        <h2 id="work-heading" class="sec-title">See Our <em>Work</em></h2>
+        <p class="sec-sub">Browse our full portfolio of completed projects — from interior rooms to full exterior house paintings across Dublin.</p>
+      </div>
+      <div class="fb-cta-card reveal">
+        <div class="fb-cta-icon" aria-hidden="true">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#fff" aria-hidden="true">
+            <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.269h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/>
+          </svg>
+        </div>
+        <h3 class="fb-cta-title">Our Full Portfolio on Facebook</h3>
+        <p class="fb-cta-sub">See dozens of completed jobs — kitchens, exteriors, interiors, and more.</p>
+        <a href="https://www.facebook.com/painter.dublin.1/photos" target="_blank" rel="noopener noreferrer" class="btn-facebook" aria-label="View our painting portfolio on Facebook (opens in new tab)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#fff" aria-hidden="true">
+            <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.97h-1.513c-1.491 0-1.956.93-1.956 1.886v2.269h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/>
+          </svg>
+          View More Work on Facebook
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════
+       CONTACT
+  ══════════════════════════════════════════════ -->
+  <div id="contact" role="region" aria-label="Contact information">
+    <div class="container">
+      <div class="contact-grid" role="list">
+        <div class="contact-item reveal" role="listitem">
+          <i class="fas fa-phone-alt" aria-hidden="true"></i>
+          <div class="contact-label">Phone</div>
+          <div class="contact-val"><a href="tel:0899510552">089 951 0552</a></div>
+        </div>
+        <div class="contact-item reveal" role="listitem">
+          <i class="fas fa-envelope" aria-hidden="true"></i>
+          <div class="contact-label">Email</div>
+          <div class="contact-val"><a id="email-link" href="#" aria-label="Email DublinPainter.ie">Loading…</a></div>
+        </div>
+        <div class="contact-item reveal" role="listitem">
+          <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+          <div class="contact-label">Area Covered</div>
+          <div class="contact-val">Greater Dublin Area</div>
+        </div>
+        <div class="contact-item reveal" role="listitem">
+          <i class="fas fa-clock" aria-hidden="true"></i>
+          <div class="contact-label">Working Hours</div>
+          <div class="contact-val">Mon – Sat: 8am – 7pm</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-tagline">From Walls to Woodwork — <span>Perfect Every Time</span></p>
+        <p class="footer-copy">&copy; 2026 DublinPainter.ie · Dublin, Ireland</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button id="scroll-top" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Mobile sticky bar -->
+  <div class="sticky-mob-bar" aria-label="Quick actions" role="toolbar">
+    <a href="tel:0899510552" class="btn-primary" aria-label="Call us now">
+      <i class="fas fa-phone-alt" aria-hidden="true"></i> Call Now
+    </a>
+    <button id="mob-pdf-btn" class="btn-secondary" aria-label="Download PDF price list">
+      <i class="fas fa-file-pdf" aria-hidden="true"></i> Price List PDF
+    </button>
+  </div>
+
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" defer></script>
+
+  <script>
+  /* ══════════════════════════════════════════════════
+     CONFIG — nav items
+  ══════════════════════════════════════════════════ */
+  var NAV = [
+    { label: 'Prices',    href: '#prices',   icon: 'fa-tag' },
+    { label: 'Services',  href: '#services', icon: 'fa-paint-roller' },
+    { label: 'Our Works', href: '#work',     icon: 'fa-images' },
+    { label: 'Contact',   href: '#contact',  icon: 'fa-envelope' }
+  ];
+
+  /* ══════════════════════════════════════════════════
+     BUILD DESKTOP NAV
+  ══════════════════════════════════════════════════ */
+  (function () {
+    var ul = document.getElementById('desktop-nav');
+    NAV.forEach(function (item) {
+      var li = document.createElement('li');
+      var a  = document.createElement('a');
+      a.href = item.href;
+      a.textContent = item.label;
+      li.appendChild(a);
+      ul.appendChild(li);
+    });
+  })();
+
+  /* ══════════════════════════════════════════════════
+     BUILD MOBILE DRAWER
+  ══════════════════════════════════════════════════ */
+  (function () {
+    var drawer = document.getElementById('mob-drawer');
+    NAV.forEach(function (item) {
+      var a = document.createElement('a');
+      a.href = item.href;
+      a.innerHTML = '<i class="fas ' + item.icon + '" aria-hidden="true"></i> ' + item.label;
+      a.addEventListener('click', closeDrawer);
+      drawer.appendChild(a);
+    });
+    var ph = document.createElement('a');
+    ph.href = 'tel:0899510552';
+    ph.innerHTML = '<i class="fas fa-phone-alt" aria-hidden="true"></i> 089 951 0552';
+    ph.addEventListener('click', closeDrawer);
+    drawer.appendChild(ph);
+  })();
+
+  /* ══════════════════════════════════════════════════
+     HAMBURGER TOGGLE
+  ══════════════════════════════════════════════════ */
+  var hamburger = document.getElementById('hamburger-btn');
+  var drawer    = document.getElementById('mob-drawer');
+  var drawerOpen = false;
+
+  function openDrawer () {
+    drawerOpen = true;
+    drawer.classList.add('open');
+    hamburger.setAttribute('aria-expanded', 'true');
+    hamburger.innerHTML = '<i class="fas fa-times" aria-hidden="true"></i>';
+  }
+  function closeDrawer () {
+    drawerOpen = false;
+    drawer.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false');
+    hamburger.innerHTML = '<i class="fas fa-bars" aria-hidden="true"></i>';
+  }
+  hamburger.addEventListener('click', function () {
+    drawerOpen ? closeDrawer() : openDrawer();
+  });
+
+  /* ══════════════════════════════════════════════════
+     THEME TOGGLE
+  ══════════════════════════════════════════════════ */
+  var themeBtn  = document.getElementById('theme-btn');
+  var themeIcon = document.getElementById('theme-icon');
+  var heroImg   = document.getElementById('hero-img');
+
+  function applyTheme (light) {
+    document.body.classList.toggle('light', light);
+    themeIcon.className = light ? 'fas fa-moon' : 'fas fa-sun';
+    if (heroImg) heroImg.src = light ? 'mariojpgw_wide.png' : 'mariojpgb_wide.png';
+    try { localStorage.setItem('dp_theme', light ? 'light' : 'dark'); } catch(e){}
+  }
+
+  /* Load saved preference */
+  var savedTheme;
+  try { savedTheme = localStorage.getItem('dp_theme'); } catch(e){}
+  applyTheme(savedTheme === 'light');
+
+  themeBtn.addEventListener('click', function () {
+    applyTheme(!document.body.classList.contains('light'));
+  });
+
+  /* ══════════════════════════════════════════════════
+     SCROLL EFFECTS — nav shrink, active links, scroll-top
+  ══════════════════════════════════════════════════ */
+  var nav       = document.getElementById('nav');
+  var scrollTop = document.getElementById('scroll-top');
+  var sections  = ['prices', 'services', 'work', 'contact'];
+
+  window.addEventListener('scroll', function () {
+    var sy = window.scrollY;
+
+    /* Nav border */
+    nav.classList.toggle('scrolled', sy > 40);
+
+    /* Scroll-to-top button */
+    scrollTop.classList.toggle('vis', sy > 320);
+
+    /* Active section highlight */
+    var cur = '';
+    sections.forEach(function (id) {
+      var el = document.getElementById(id);
+      if (el && sy >= el.offsetTop - 100) cur = id;
+    });
+
+    /* Update desktop nav */
+    document.querySelectorAll('#desktop-nav a').forEach(function (a) {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + cur);
+    });
+    /* Update subnav */
+    document.querySelectorAll('#hero-subnav a').forEach(function (a) {
+      var href = a.getAttribute('href');
+      if (href && href.startsWith('#')) {
+        a.classList.toggle('active', href === '#' + cur);
+      }
+    });
+  }, { passive: true });
+
+  /* ══════════════════════════════════════════════════
+     INTERSECTION OBSERVER — reveal animations
+  ══════════════════════════════════════════════════ */
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry, i) {
+      if (entry.isIntersecting) {
+        setTimeout(function () {
+          entry.target.classList.add('vis');
+        }, i * 60);
+      }
+    });
+  }, { threshold: 0.07 });
+
+  document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+
+  /* ══════════════════════════════════════════════════
+     EMAIL ANTI-SPAM
+  ══════════════════════════════════════════════════ */
+  (function () {
+    var addr = 'mario' + '@' + 'dublinpainter' + '.ie';
+    var el   = document.getElementById('email-link');
+    if (el) {
+      el.href      = 'mailto:' + addr;
+      el.textContent = addr;
+    }
+  })();
+
+  /* ══════════════════════════════════════════════════
+     PDF GENERATION (jsPDF)
+     Called on download button click — waits for jsPDF
+     to be available before running.
+  ══════════════════════════════════════════════════ */
+  function generatePDF () {
+    if (!window.jspdf || !window.jspdf.jsPDF) {
+      alert('PDF library is still loading, please try again in a moment.');
+      return;
+    }
+
+    var jsPDF = window.jspdf.jsPDF;
+    var doc   = new jsPDF({ unit: 'mm', format: 'a4' });
+
+    var PW = 210, PH = 297, ML = 16, MR = 16;
+    var CW = PW - ML - MR;
+    var G  = [34, 197, 94];    /* green */
+    var DK = [9, 9, 11];       /* near-black */
+    var LG = [245, 245, 245];  /* light grey */
+    var MG = [120, 120, 130];  /* mid grey */
+    var WH = [255, 255, 255];
+
+    function rgb(c) { doc.setFillColor(c[0], c[1], c[2]); }
+    function txt(c) { doc.setTextColor(c[0], c[1], c[2]); }
+    function drw(c) { doc.setDrawColor(c[0], c[1], c[2]); }
+
+    /* Draw a simple price table; returns updated y */
+    function table (headers, rows, colW, y) {
+      var hH = 9, rH = 8, x = ML;
+
+      /* header */
+      rgb(G); doc.rect(x, y, CW, hH, 'F');
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(8);
+      txt(WH);
+      var cx = x;
+      headers.forEach(function (h, i) {
+        doc.text(h, cx + colW[i] / 2, y + hH / 2 + 1.5, { align: 'center', maxWidth: colW[i] - 3 });
+        cx += colW[i];
+      });
+      y += hH;
+
+      /* rows */
+      rows.forEach(function (row, r) {
+        if (y + rH > PH - 24) { doc.addPage(); y = 22; }
+        rgb(r % 2 === 0 ? WH : LG);
+        doc.rect(x, y, CW, rH, 'F');
+        cx = x;
+        row.forEach(function (cell, i) {
+          var last = (i === row.length - 1);
+          txt(last ? G : DK);
+          doc.setFont('helvetica', last ? 'bold' : 'normal');
+          doc.setFontSize(8);
+          var align = i === 0 ? 'left' : 'center';
+          var tx    = i === 0 ? cx + 3  : cx + colW[i] / 2;
+          doc.text(String(cell), tx, y + rH / 2 + 1.5, { align: align, maxWidth: colW[i] - 4 });
+          cx += colW[i];
+        });
+        drw([220, 220, 220]);
+        doc.setLineWidth(0.15);
+        doc.line(x, y + rH, x + CW, y + rH);
+        y += rH;
+      });
+
+      drw(G);
+      doc.setLineWidth(0.5);
+      doc.rect(x, y - rows.length * rH - hH, CW, rows.length * rH + hH, 'S');
+      return y;
+    }
+
+    /* ── Header ── */
+    rgb(DK); doc.rect(0, 0, PW, 38, 'F');
+    rgb(G);  doc.rect(0, 38, PW, 1.5, 'F');
+    doc.setFont('helvetica', 'bold');
+    doc.setFontSize(22);
+    txt(WH);
+    doc.text('DublinPainter.ie', PW / 2, 17, { align: 'center' });
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(10);
+    txt(G);
+    doc.text('Professional Painting & Decorating  |  Price List 2026', PW / 2, 28, { align: 'center' });
+
+    var y = 46;
+
+    /* ── Exterior ── */
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(12); txt(G);
+    doc.text('Exterior Painting Costs', ML, y); y += 6;
+    y = table(
+      ['Property Type', 'Size Range', 'Estimated Price'],
+      [
+        ['Terraced House',  'Small (80–120 m²)',   '€1,200 – €2,000'],
+        ['Terraced House',  'Medium (120–150 m²)', '€1,800 – €2,500'],
+        ['Semi-Detached',   'Medium (120–180 m²)', '€1,800 – €3,000'],
+        ['Semi-Detached',   'Large (180–220 m²)',  '€2,500 – €3,800'],
+        ['Detached House',  'Medium (150–220 m²)', '€2,500 – €4,000'],
+        ['Detached House',  'Large (220–350 m²)',  '€3,500 – €5,500'],
+        ['Detached House',  'Very Large (350+ m²)','€5,000 – €9,000+']
+      ],
+      [CW * 0.40, CW * 0.35, CW * 0.25], y
+    );
+    y += 3;
+    doc.setFont('helvetica', 'italic'); doc.setFontSize(7.5); txt(MG);
+    doc.text('Includes: Minor surface repairs, priming where required, two coats high-quality exterior masonry paint.', ML, y);
+    y += 10;
+
+    /* ── Interior ── */
+    if (y > PH - 90) { doc.addPage(); y = 22; }
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(12); txt(G);
+    doc.text('Interior Painting Costs', ML, y); y += 6;
+    y = table(
+      ['Room Type', 'Average Size', 'Standard Price'],
+      [
+        ['Small Bedroom',            '8–12 m²',  '€250 – €350'],
+        ['Master Bedroom',           '15–22 m²', '€350 – €450'],
+        ['Living Room',              '18–25 m²', '€350 – €500'],
+        ['Kitchen',                  '10–20 m²', '€400 – €550'],
+        ['Hallway, Stairs & Landing','Varies',   '€500 – €700'],
+        ['Bathroom',                 '5–10 m²',  '€200 – €300'],
+        ['Dining Room',              '12–20 m²', '€300 – €450'],
+        ['Home Office',              '8–15 m²',  '€250 – €400']
+      ],
+      [CW * 0.44, CW * 0.26, CW * 0.30], y
+    );
+    y += 10;
+
+    /* ── Additional ── */
+    if (y > PH - 62) { doc.addPage(); y = 22; }
+    doc.setFont('helvetica', 'bold'); doc.setFontSize(12); txt(G);
+    doc.text('Additional Services', ML, y); y += 6;
+    y = table(
+      ['Service', 'Estimated Cost'],
+      [
+        ['Ceiling Painting',                          '€80 – €150 per room'],
+        ['Woodwork (skirting, architraves, frames)',   '€120 – €250 per room'],
+        ['Feature Wall',                               '€100 – €200 additional'],
+        ['Metal Cladding, Barriers & Fences',          'Ask for quote'],
+        ['Wallpaper Hanging & Removal',                'Ask for quote']
+      ],
+      [CW * 0.62, CW * 0.38], y
+    );
+    y += 6;
+
+    /* ── Notes ── */
+    doc.setFont('helvetica', 'normal'); doc.setFontSize(7.5); txt(MG);
+    var noteLines = doc.splitTextToSize(
+      'All prices include labour and tools. Works include dust sheets, filling cracks, 2 coats ceiling emulsion, ' +
+      '2 coats vinyl matt on walls, 1 coat gloss/satin on doors & skirtings. Free colour consultation. No hidden costs.',
+      CW
+    );
+    doc.text(noteLines, ML, y); y += noteLines.length * 4 + 7;
+
+    /* ── Green rule ── */
+    rgb(G); doc.rect(ML, y, CW, 0.8, 'F'); y += 7;
+
+    /* ── Contact block ── */
+    if (y > PH - 28) { doc.addPage(); y = 22; }
+    var cW4 = CW / 4;
+    rgb(LG); doc.rect(ML, y, CW, 20, 'F');
+    drw(G); doc.setLineWidth(0.5); doc.rect(ML, y, CW, 20, 'S');
+    [
+      ['Phone',  '089 951 0552'],
+      ['Email',  'mario@dublinpainter.ie'],
+      ['Hours',  'Mon–Sat: 8am–7pm'],
+      ['Web',    'www.dublinpainter.ie']
+    ].forEach(function (p, i) {
+      var cx = ML + i * cW4 + cW4 / 2;
+      doc.setFont('helvetica', 'bold'); doc.setFontSize(7); txt(MG);
+      doc.text(p[0].toUpperCase(), cx, y + 7, { align: 'center' });
+      doc.setFont('helvetica', 'bold'); doc.setFontSize(8); txt(DK);
+      doc.text(p[1], cx, y + 14, { align: 'center', maxWidth: cW4 - 4 });
+    });
+
+    doc.save('DublinPainter-PriceList-2026.pdf');
+  }
+
+  /* Wire up all PDF buttons */
+  function wirePDF (id) {
+    var btn = document.getElementById(id);
+    if (btn) btn.addEventListener('click', generatePDF);
+  }
+  wirePDF('download-pdf-btn');
+  wirePDF('mob-pdf-btn');
+
+  /* ══════════════════════════════════════════════════
+     PHONE CLICK TRACKING (GA4 — if present)
+  ══════════════════════════════════════════════════ */
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest('a[href^="tel:"]');
+    if (el && typeof gtag === 'function') {
+      gtag('event', 'phone_click', {
+        event_category: 'contact',
+        event_label: el.href.replace('tel:', '')
+      });
+    }
+  });
+  </script>
+
+</body>
+</html>
